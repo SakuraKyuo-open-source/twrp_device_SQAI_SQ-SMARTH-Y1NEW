@@ -75,6 +75,14 @@
         </interface>
         <fqname>@2.1::IBluetoothAudioProvidersFactory/default</fqname>
     </hal>
+    <hal format="aidl">
+        <name>android.hardware.vibrator</name>
+        <fqname>IVibrator/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.vibrator</name>
+        <fqname>IVibratorManager/default</fqname>
+    </hal>
     <hal format="hidl">
         <name>android.hardware.boot</name>
         <transport>hwbinder</transport>
