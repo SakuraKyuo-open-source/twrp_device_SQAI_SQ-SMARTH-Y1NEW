@@ -72,14 +72,6 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-service \
     android.hardware.health@2.1-impl
 
-TARGET_RECOVERY_DEVICE_MODULES += \
-    libion \
-    libxml2
-
-RECOVERY_LIBRARY_SOURCE_FILES += \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libion.so \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libxml2.so
-
 # FastbootD
 PRODUCT_PACKAGES += \
     fastbootd \
