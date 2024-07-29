@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_viva.mk
+    $(LOCAL_DIR)/twrp_Y1NEW.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_viva-eng
+    twrp_Y1NEW-eng
